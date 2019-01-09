@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cf5feff-0726-4587-a3fe-78bcc4028e56">
+  <producedTypes>
+    <refType typeId="575da7f3-1976-4bbe-9dab-c73db02f3aa2" valueTypeId="cf6b2fb4-2fcd-46eb-b2d6-14f4fc7d0cd0"/>
+    <listType typeId="5252253a-66a3-4e96-a411-f53e84a0280d" valueTypeId="cf673640-50b9-4010-9192-a54149ab660e"/>
+    <managerType typeId="7e7d8e59-a094-4252-b055-eb9dd5243e0b" valueTypeId="9df1f994-2e1b-4d61-b416-4727a69cb64f"/>
+  </producedTypes>
+  <name>СпособВыполненияПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ выполнения проверки</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e7de947e-f98d-40d5-b3b2-e91ef2ea8e7e">
+    <name>ПоОбщемуРасписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По общему расписанию</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="fd23b5cc-ccfb-493e-9265-649752159442">
+    <name>ПоОтдельномуРасписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По отдельному расписанию</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="95c8b59e-dc69-4cb3-a6d3-546e65fe31cf">
+    <name>Вручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вручную</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>
