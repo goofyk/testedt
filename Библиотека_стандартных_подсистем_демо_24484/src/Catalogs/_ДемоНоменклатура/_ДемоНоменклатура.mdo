@@ -606,6 +606,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="f0f4554c-314c-4f53-8cdb-b8c2adc912c0">
+    <name>ТестоваяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовая форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="8f0a313d-b8b9-4125-b383-d42807e6c7ab">
     <name>ЗагрузкаИзФайла</name>
     <synonym>
